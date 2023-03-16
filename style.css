@@ -1,11 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.main-box{
+  max-width: 100%;
+  background-image: linear-gradient(rgb(82, 214, 240), rgb(143, 31, 240));
+  margin: auto;
+  padding: 5%;
+}
 
 .container {
   max-width: 1200px;
   margin: auto;
-  padding: 5%;
+  /* padding: 5%; */
   background-image: linear-gradient(rgb(82, 214, 240), rgb(143, 31, 240));
   font-family: "Poppins", sans-serif;
+}
+body {
+  /* background-image: linear-gradient(rgb(82, 214, 240), rgb(143, 31, 240));
+  overflow-y: hidden; */
+}
+.colorful-bg{
+  /* width: 100%; */
+background-image: linear-gradient(rgb(82, 214, 240), rgb(143, 31, 240));
+  
 }
 
 .hero {
@@ -19,12 +39,16 @@
   width: 100%;
 }
 
+.user-content {
+  margin-top: 15%;
+  padding-top: 10px;
+}
 .user-content p {
   padding-bottom: 15px;
 }
 
 .user-footer {
-  padding-top: 20px;
+  padding-top: 15%;
 }
 
 .box-1 {
@@ -65,10 +89,23 @@
 }
 
 .user-btns button {
-  width: 100px;
-  height: 30px;
+  width: 150px;
+  height: 35px;
   background-color: blueviolet;
   border-radius: 20px;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10%;
+}
+.user-btns button:hover {
+  background-color: rgb(82, 214, 240);
+  font-size: 20px;
+}
+.btn1 {
+  padding-right: 10px;
+  margin-right: 10px;
 }
 
 .user-texts {
@@ -150,4 +187,9 @@
   .hero {
     flex-wrap: wrap;
   }
+  .box-1,
+.box-2 {
+  padding: 10%;
+  width: 100%;
+}
 }
