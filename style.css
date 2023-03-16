@@ -110,7 +110,10 @@ background-image: linear-gradient(rgb(82, 214, 240), rgb(143, 31, 240));
 
 .user-texts {
   color: #fff;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
+}
+.user-texts p{
+  padding-top: 10px;
 }
 
 .user-name {
